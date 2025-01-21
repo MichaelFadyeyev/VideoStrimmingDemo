@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/VideoStrimmingDemoClient/bin/Debug/net6.0
+/VideoStrimmingDemoClient/obj
+/VideoStrimmingDemoClient/VideoStrimmingDemoClient.csproj
+/VideoStrimmingDemoClient/VideoStrimmingDemoClient.csproj.user
+/VideoStrimmingDemoAPI/.vs/VideoStrimmingDemoAPI
+/VideoStrimmingDemoAPI/bin/Debug/net6.0
+/VideoStrimmingDemoAPI/obj
+/VideoStrimmingDemoAPI/Videos/bunny.mp4
+/VideoStrimmingDemoAPI/Videos/earth.mp4
+/VideoStrimmingDemoAPI/Videos/Lithium.avi
+/VideoStrimmingDemoAPI/VideoStrimmingDemoAPI.csproj
+/VideoStrimmingDemoAPI/VideoStrimmingDemoAPI.csproj.user
+/VideoStrimmingDemoAPI/VideoStrimmingDemoAPI.sln
+/VideoStrimmingDemoAPI/VideoStrimmingDemoAPI.slnLaunch.user
+/.vs
