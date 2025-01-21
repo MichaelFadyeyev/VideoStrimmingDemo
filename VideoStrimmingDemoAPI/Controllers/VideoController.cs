@@ -16,7 +16,6 @@ namespace VideoStrimmingDemo.Controllers
         [HttpGet("{fileName}")]
         public IActionResult GetVideo(string fileName)
         {
-            var currentDir = Directory.GetCurrentDirectory(); 
             var filePath = Path.Combine("Videos", fileName);
             if (!System.IO.File.Exists(filePath))
             {
