@@ -1,0 +1,25 @@
+﻿@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<div style="width: 100%">
+    <video controls width="600" style=" margin: auto">
+        <source src="https://localhost:7264/api/video/bunny.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+    </video>
+</div>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
